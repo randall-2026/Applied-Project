@@ -22,13 +22,8 @@ Open `http://localhost:5173` in your browser.
 ```
 judgment-gym/
 ├── README.md
-├── src/
-│   └── JudgmentGym.jsx        # Complete application source
-├── docs/
-│   ├── JudgmentGym_Report.pptx
-│   └── Judgment_Gym_Design_Testing_Documentation.docx
-├── package.json
-└── .gitignore
+├── JudgmentGym.jsx        # Complete application source
+├── JudgmentGym_Report.pptx
 ```
 
 ## Architecture
