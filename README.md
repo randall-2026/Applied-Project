@@ -29,7 +29,7 @@ Applied-Project/
 └── README.md                    # Project overview and setup instructions
 ```
 
-Recommended supporting documentation files for the build-phase package:
+Supporting documentation files for the build-phase package:
 
 ```text
 Applied-Project/
