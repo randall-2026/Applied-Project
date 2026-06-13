@@ -1,0 +1,41 @@
+Judgment Gym Baseline Smoke Test Evidence
+
+Date: 2026-06-13
+Environment: Local development machine
+Framework: React with Vite
+Main artifact: JudgmentGym.jsx
+
+Command sequence:
+
+npm create vite@latest judgment-gym -- --template react
+cd judgment-gym
+npm install
+
+# Replace src/App.jsx with the contents of JudgmentGym.jsx
+
+npm run dev
+
+Expected terminal output:
+
+> judgment-gym@0.0.0 dev
+> vite
+
+  VITE v5.x.x  ready in [time] ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+Manual verification checklist:
+
+[ ] Browser opens local Vite URL successfully.
+[ ] Judgment Gym interface renders.
+[ ] User can create a sample decision.
+[ ] User can select an option and confidence level.
+[ ] User can commit the decision.
+[ ] Committed decision fields become locked.
+[ ] User can request simulated critique.
+[ ] Critique panel displays multi-perspective feedback.
+[ ] User can log outcome/reflection.
+[ ] Analytics update after reflection.
+
+Result: Pending replacement with actual local terminal output and screenshots.
